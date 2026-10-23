@@ -1,0 +1,58 @@
+
+[
+  {
+    "id": 1,
+    "name": "Ravi Kumar",
+    "age": 42,
+    "gender": "Male",
+    "email": "ravi@company.com",
+    "department": "Engineering",
+    "designation": "Engineering Manager",
+    "salary": 120000,
+    "manager_id": null
+  },
+  {
+    "id": 2,
+    "name": "Priya Sharma",
+    "age": 35,
+    "gender": "Female",
+    "email": "priya@company.com",
+    "department": "Engineering",
+    "designation": "Team Lead",
+    "salary": 90000,
+    "manager_id": 1
+  },
+  {
+    "id": 3,
+    "name": "Arjun Reddy",
+    "age": 26,
+    "gender": "Male",
+    "email": "arjun@company.com",
+    "department": "Engineering",
+    "designation": "Software Developer",
+    "salary": 50000,
+    "manager_id": 2
+  },
+  {
+    "id": 4,
+    "name": "Sneha Rao",
+    "age": 28,
+    "gender": "Female",
+    "email": "sneha@company.com",
+    "department": "HR",
+    "designation": "HR Executive",
+    "salary": 45000,
+    "manager_id": 5
+  },
+  {
+    "id": 5,
+    "name": "Kiran Reddy",
+    "age": 40,
+    "gender": "Male",
+    "email": "kiran@company.com",
+    "department": "HR",
+    "designation": "HR Manager",
+    "salary": 100000,
+    "manager_id": null
+  }
+]
