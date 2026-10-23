@@ -22,3 +22,20 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Python virtual environments
+venv/
+api/
+backend/venv/
+backend/api/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# React dependencies and build
+frontend/node_modules/
+frontend/dist/
+
+# Environment variables
+.env
