@@ -1,9 +1,3 @@
-Flask — creates your REST API endpoints.
-
-
-
-flask-cors — allows your React frontend to call the Flask API.
-
-
-
-gunicorn — runs your Flask application when deploying to Render.
+Flask
+flask-cors
+gunicorn
