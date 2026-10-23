@@ -63,6 +63,18 @@ def get_employees():
         format_employee(e, employees) for e in employees
     ]), 200
 
+# GET: All managers
+@app.route("/managers", methods=["GET"])
+def get_managers():
+    employees = read_employees()
+
+    managers = [
+        format_employee(employee, employees)
+        for employee in employees
+        if employee.get("manager_id") is None
+    ]
+
+    return jsonify(managers), 200
 
 # GET: One employee
 @app.route("/employees/<int:employee_id>", methods=["GET"])

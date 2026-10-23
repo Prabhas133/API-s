@@ -1,8 +1,14 @@
 
 import Employees from "./Employees.jsx";
+import Managers from "./Managers";
 
 function App() {
-    return <Employees />;
+    return (
+        <div>
+            <Employees />
+            <Managers />
+        </div>
+    );
 }
 
 export default App;
